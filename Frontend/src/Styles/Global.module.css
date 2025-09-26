@@ -1,0 +1,7 @@
+/*font ,colors ,variablews */
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal+Mania&family=Ms+Madi&display=swap");
+:root {
+  --bg-dark: #0b0d0e; /* dark background */
+  --h1-text: #8c8c8c; /* light gray text */
+  font-family: "Figtree" sans-serif;
+}
