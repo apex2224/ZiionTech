@@ -102,7 +102,6 @@
   filter: drop-shadow(0 20px 40px rgba(239, 68, 68, 0.3));
   animation: float 6s ease-in-out infinite;
   transition: transform 0.4s ease, filter 0.4s ease;
-  transform: rotate(180deg);
 }
 
 .logo:hover {
@@ -124,6 +123,16 @@
   z-index: 1;
   animation: fadeInUp 1s ease-out 0.4s backwards;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.aboutSection .heatmapContainer {
+  padding: 2rem 0;
+  margin: 0;
+  max-width: 100%;
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  backdrop-filter: none;
 }
 
 .aboutSection::before {

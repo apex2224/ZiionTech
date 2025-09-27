@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./LandingPage.module.css";
 import "../../Styles/Global.module.css";
 import logo from "../../Assets/Png/RedDragon.png";
+import HeatmapChart from "../../Components/HeatmapChart/HeatmapChart";
+import ProjectTimeline from "../../Components/ProjectTimeline";
 
 const LandingPage = () => {
   return (
@@ -29,6 +31,11 @@ const LandingPage = () => {
           beautiful and functional websites. I'm always looking for new
           opportunities to learn and grow.
         </p>
+        <HeatmapChart />
+      </section>
+      <section className={styles.projectSection}>
+        <h2 className={styles.text}>Projects</h2>
+        <ProjectTimeline />
       </section>
     </main>
   );
